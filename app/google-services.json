@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "677065756720",
+    "firebase_url": "https://health-tourism-a71f1.firebaseio.com",
+    "project_id": "health-tourism-a71f1",
+    "storage_bucket": "health-tourism-a71f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677065756720:android:719da0a1af0ab4d912ddf5",
+        "android_client_info": {
+          "package_name": "com.example.healthtourism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677065756720-p12r31su3ujh5bbcuv8u25u6p9q81udg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthtourism",
+            "certificate_hash": "4bf1d27ac58965d7ae241e41e8e6cf7c0bd4a3d2"
+          }
+        },
+        {
+          "client_id": "677065756720-7ia5h2hn1ek6hi5unn2pbtprf8fkhhc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmmPtV3fZ3ht0YRtndX4kP1DjD6QRhXS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677065756720-7ia5h2hn1ek6hi5unn2pbtprf8fkhhc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

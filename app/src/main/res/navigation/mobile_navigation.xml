@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.healthtourism.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.healthtourism.ui.TopDestination.TopDestinationFragment"
+        android:label="Destinasi Favorit"
+        tools:layout="@layout/fragment_top_destination" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.healthtourism.ui.RecommendedPlace.RecommendedPlace"
+        android:label="Rekomendasi Tempat"
+        tools:layout="@layout/fragment_recommended_place" />
+
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.healthtourism.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+       />
+
+    <fragment
+        android:id="@+id/kategori_fragment1"
+        android:name="com.example.healthtourism.ui.share.ShareFragment"
+        android:label="Kategori"
+        tools:layout="@layout/fragment_share" />
+
+</navigation>
